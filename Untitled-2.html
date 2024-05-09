@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fetal Monitoring Prediction</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Fetal Monitoring Prediction (Separate value by comma)</h2>
+    <form>
+      <div class="form-group">
+        <label class="form-label">1.  Baseline value</label>
+        <label class="form-label">2.  Accelerations</label>
+        <label class="form-label">3.  Fetal movement</label>
+        <label class="form-label">4.  Uterine contractions</label>
+        <label class="form-label">5.  Light decelerations</label>
+        <label class="form-label">6.  Severe decelerations</label>
+        <label class="form-label">7.  Prolongued decelerations</label>
+        <label class="form-label">8.  Abnormal short term variability</label>
+        <label class="form-label">9.  Mean value of short term variability</label>
+        <label class="form-label">10. Percentage of time with abnormal long term variability</label>
+        <label class="form-label">11. Mean value of long term variability</label>
+        <label class="form-label">12. Histogram width</label>
+        <label class="form-label">13. Histogram min</label>
+        <label class="form-label">14. Histogram max</label>
+        <label class="form-label">15. Histogram number of peaks</label>
+        <label class="form-label">16. Histogram number of zeroes</label>
+        <label class="form-label">17. Histogram mode</label>
+        <label class="form-label">18. Histogram mean</label>
+        <label class="form-label">19. Histogram median</label>
+        <label class="form-label">20. Histogram variance</label>
+        <label class="form-label">21. Histogram tendency</label>
+        <input type="text" id="input_values" class="form-input" required placeholder="Enter values separated by commas">
+      </div>
+      <button class="button" type="submit">Predict</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
