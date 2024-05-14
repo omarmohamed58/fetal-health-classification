@@ -1,3 +1,4 @@
+pickle
 gunicorn
 numpy
 Flask
