@@ -1,0 +1,4 @@
+gunicorn
+numpy
+Flask
+flask_cors
